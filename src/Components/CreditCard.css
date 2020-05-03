@@ -1,0 +1,157 @@
+.mk-icon-sim{
+    background-image:url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="52.603px" height="27.424px" viewBox="22.897 64.288 52.603 27.424" enable-background="new 22.897 64.288 52.603 27.424" xml:space="preserve"><rect x="72.407" y="79.211" fill="none" width="1.025" height="6.497"/><path fill="#444" d="M41.963,84.221v4.517c0,0.546-0.445,0.993-0.991,0.993H22.897v1.981h18.075h26.153H75.5v-1.981h-8.375 c-0.546,0-0.991-0.447-0.991-0.993v-4.517c0-0.546,0.445-0.989,0.991-0.989H75.5v-1.984c-1.865,0-8.375,0-8.375,0 c-0.546,0-0.991-0.444-0.991-0.99V75.74c0-0.546,0.445-0.989,0.991-0.989H75.5v-1.985h-8.375c-1.64,0-2.975,1.335-2.975,2.973v4.518 c0,0.764,0.302,1.455,0.776,1.981c-0.474,0.527-0.776,1.22-0.776,1.982v4.517c0,0.35,0.072,0.68,0.185,0.993H43.763 c0.111-0.313,0.182-0.642,0.182-0.993V84.22c0-0.761-0.297-1.455-0.771-1.982c0.474-0.526,0.771-1.216,0.771-1.981v-4.518 c0-0.762-0.297-1.453-0.771-1.981c0.474-0.527,0.771-1.217,0.771-1.982V67.26c0-0.349-0.071-0.678-0.182-0.99H75.5v-1.982H40.971 H22.897v1.982h18.075c0.546,0,0.991,0.444,0.991,0.99v4.516c0,0.546-0.445,0.991-0.991,0.991H22.897v1.984h18.075 c0.546,0,0.991,0.443,0.991,0.989v4.518c0,0.546-0.445,0.99-0.991,0.99H22.897v1.984h18.075 C41.518,83.232,41.963,83.675,41.963,84.221z"/></svg>');
+	background-size:55px;
+}
+body{
+	margin:0;
+    color:#444;
+    background-image:url('https://i2.wp.com/wallur.com/wp-content/uploads/2016/12/grunge-background-7.jpg?fit=1920%2C1080');
+    /*background-image:url('https://images5.alphacoders.com/405/thumb-1920-405117.jpg');*/
+	/*background:#9d9d9d;*/
+	font:300 18px/18px Roboto, sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.pull-left{float:left}
+.pull-right{float:right}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+
+.credit-card-wrap .mk-icon-world-map:before,
+.credit-card-wrap .credit-card-number:before{
+	content:'';
+	position:absolute;
+}
+.credit-card-wrap{
+	top:50%;
+	left:50%;
+	width:450px;
+	height:285px;
+	position:fixed;
+	border-radius:20px;
+	background:#5D4157;
+	margin-left:-225px;
+	margin-top:-142.5px;
+	background:-webkit-linear-gradient(to left, #5D4157 , #A8CABA);
+	background:linear-gradient(to left, #5D4157 , #A8CABA);
+	box-shadow:2px 2px rgba(0,0,0,.4);
+}
+.credit-card-wrap .mk-icon-world-map{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	border-radius:inherit;
+}
+.credit-card-wrap .mk-icon-world-map:before{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+	background:rgba(0,0,0,.4);
+	background:radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, rgba(0,0,0,.2) 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+		radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, rgba(255,255,255,.2) 10px, rgba(96, 16, 48, 0) 11px), rgba(0,0,0,.6);
+	background-size: 20px 20px;
+}
+.credit-card-wrap .credit-card-inner{
+	z-index:100;
+	padding:30px;
+	width:inherit;
+	height:inherit;
+	position:relative;
+}
+.credit-card-wrap .credit-logo .text{
+	font-size:24px;
+	font-weight:500;
+	margin-left:10px;
+	text-transform:uppercase;
+	color:rgba(255,255,255,.8);
+}
+.credit-card-wrap .credit-logo .shape{
+	width:40px;
+	height:40px;
+	display:inline-block;
+	background-color:#dc143c;
+	box-shadow:-2px 2px 0 rgba(255,255,255,.8);
+	border-radius:40px 0 40px 40px;
+	transform:rotate(-45deg);
+}
+.credit-card-wrap .credit-logo .shape>.txt{
+	color:#ccc;
+	display:block;
+	width:inherit;
+	font-size:14px;
+	height:inherit;
+	font-weight:500;
+	line-height:40px;
+	text-align:center;
+	transform:rotate(45deg);
+}
+.credit-card-wrap .credit-font{
+	color:#fff;
+	font-size:18px;
+	font-family:ocr_a_std,sans-serif;
+	text-shadow:-1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+}
+.credit-card-wrap .credit-card-number{
+	font-size:26px;
+	text-align:center;
+	position:relative;
+	letter-spacing:2px;
+	margin-bottom:20px;
+	white-space:nowrap;
+}
+.credit-card-wrap .credit-card-number:before{
+	top:100%;
+	font-size:12px;
+	font-family:Roboto;
+	content:attr(data-text);
+}
+.credit-card-wrap .credit-card-date{
+	color:#fff;
+	text-align:center;
+}
+.credit-card-wrap .credit-card-date .title{
+	width:50px;
+	color:#deb887;
+	font-size:12px;
+	line-height:14px;
+	text-align:right;
+	display:inline-block;
+	text-transform:uppercase;
+}
+.credit-card-wrap .credit-card-date .credit-font{
+	top:-5px;
+	left:10px;
+	position:relative;
+}
+.credit-card-wrap .credit-author{
+	padding-top:10px;
+}
+.credit-card-wrap .mk-icon-sim{
+	width:55px;
+	height:40px;
+	margin:20px 0;
+	border-radius:8px;
+	background-color:#fdd76f;
+}
+.credit-card-wrap .mk-icon-visa{
+	width:90px;
+	height:45px;
+	bottom:-10px;
+	position:relative;
+}
+.credit-card-wrap .footer{
+	left:30px;
+	right:30px;
+	bottom:30px;
+	position:absolute;
+}
+.credit-card-wrap .footer .pull-left{
+	width:70%;
+}
+/**/
